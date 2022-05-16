@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - JpaDemoBasicTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>JpaDemoBasicTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.jpademo.html">com.example.jpademo</a> &gt; JpaDemoBasicTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.288s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">sqlFunction()</td>
+<td class="success">0.288s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>04:24:41.610 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+04:24:41.616 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+04:24:41.633 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.jpademo.JpaDemoBasicTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+04:24:41.644 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.jpademo.JpaDemoBasicTest], using SpringBootContextLoader
+04:24:41.646 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.jpademo.JpaDemoBasicTest]: class path resource [com/example/jpademo/JpaDemoBasicTest-context.xml] does not exist
+04:24:41.647 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.jpademo.JpaDemoBasicTest]: class path resource [com/example/jpademo/JpaDemoBasicTestContext.groovy] does not exist
+04:24:41.647 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.jpademo.JpaDemoBasicTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+04:24:41.647 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.jpademo.JpaDemoBasicTest]: JpaDemoBasicTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+04:24:41.700 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.jpademo.JpaDemoBasicTest]
+04:24:41.798 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/gangmingyu/Documents/SpringBootWithJava/jpa-practice/build/classes/java/main/com/example/jpademo/JpademoApplication.class]
+04:24:41.799 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.jpademo.JpademoApplication for test class com.example.jpademo.JpaDemoBasicTest
+04:24:41.923 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.jpademo.JpaDemoBasicTest]: using defaults.
+04:24:41.923 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+04:24:41.948 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b739528, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@622ef26a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@41de5768, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f577419, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@28fa700e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d526ad9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@e041f0c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6a175569, org.springframework.test.context.event.EventPublishingTestExecutionListener@11963225, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f3c966c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@11ee02f8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4102b1b1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@61a5b4ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3a71c100, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5b69fd74]
+04:24:41.959 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@66b72664 testClass = JpaDemoBasicTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a34b7b8 testClass = JpaDemoBasicTest, locations = '{}', classes = '{class com.example.jpademo.JpademoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@55b5f5d2, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@242aa8d9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4721d212, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@207ea13, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@a8c1f44, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2ca923bb], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+04:24:42.046 [Test worker] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+04:24:42.047 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.0)
+
+2021-12-27 04:24:42.397  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : Starting JpaDemoBasicTest using Java 11.0.13 on gangmingyuui-MacBookAir.local with PID 72668 (started by gangmingyu in /Users/gangmingyu/Documents/SpringBootWithJava/jpa-practice)
+2021-12-27 04:24:42.398  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : No active profile set, falling back to default profiles: default
+2021-12-27 04:24:43.001  INFO 72668 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 04:24:43.039  INFO 72668 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2021-12-27 04:24:43.481  INFO 72668 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 04:24:43.553  INFO 72668 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-27 04:24:43.694  INFO 72668 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 04:24:43.830  INFO 72668 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-27 04:24:44.019  INFO 72668 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-27 04:24:44.031  INFO 72668 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-27 04:24:44.444 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists Member CASCADE 
+2021-12-27 04:24:44.447  INFO 72668 --- [    Test worker] p6spy                                    : #1640546684447 | took 1ms | statement | connection 1| url jdbc:h2:file:~/desktop/demo
+
+    drop table if exists Member CASCADE 
+
+    drop table if exists Member CASCADE ;
+2021-12-27 04:24:44.448 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists Team CASCADE 
+2021-12-27 04:24:44.448  INFO 72668 --- [    Test worker] p6spy                                    : #1640546684448 | took 0ms | statement | connection 1| url jdbc:h2:file:~/desktop/demo
+
+    drop table if exists Team CASCADE 
+
+    drop table if exists Team CASCADE ;
+2021-12-27 04:24:44.450 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table Member (
+       member_id bigint generated by default as identity,
+        age integer,
+        username varchar(255),
+        team_id bigint,
+        primary key (member_id)
+    )
+2021-12-27 04:24:44.452  INFO 72668 --- [    Test worker] p6spy                                    : #1640546684452 | took 2ms | statement | connection 2| url jdbc:h2:file:~/desktop/demo
+
+    create table Member (
+       member_id bigint generated by default as identity,
+        age integer,
+        username varchar(255),
+        team_id bigint,
+        primary key (member_id)
+    )
+
+    create table Member (
+       member_id bigint generated by default as identity,
+        age integer,
+        username varchar(255),
+        team_id bigint,
+        primary key (member_id)
+    );
+2021-12-27 04:24:44.452 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table Team (
+       id bigint generated by default as identity,
+        name varchar(255),
+        primary key (id)
+    )
+2021-12-27 04:24:44.453  INFO 72668 --- [    Test worker] p6spy                                    : #1640546684453 | took 0ms | statement | connection 2| url jdbc:h2:file:~/desktop/demo
+
+    create table Team (
+       id bigint generated by default as identity,
+        name varchar(255),
+        primary key (id)
+    )
+
+    create table Team (
+       id bigint generated by default as identity,
+        name varchar(255),
+        primary key (id)
+    );
+2021-12-27 04:24:44.453 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    alter table Member 
+       add constraint FK5nt1mnqvskefwe0nj9yjm4eav 
+       foreign key (team_id) 
+       references Team
+2021-12-27 04:24:44.458  INFO 72668 --- [    Test worker] p6spy                                    : #1640546684458 | took 4ms | statement | connection 2| url jdbc:h2:file:~/desktop/demo
+
+    alter table Member 
+       add constraint FK5nt1mnqvskefwe0nj9yjm4eav 
+       foreign key (team_id) 
+       references Team
+
+    alter table Member 
+       add constraint FK5nt1mnqvskefwe0nj9yjm4eav 
+       foreign key (team_id) 
+       references Team;
+2021-12-27 04:24:44.459  INFO 72668 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 04:24:44.463  INFO 72668 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 04:24:45.086  WARN 72668 --- [    Test worker] o.s.b.a.m.MustacheAutoConfiguration      : Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-12-27 04:24:45.209  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : Started JpaDemoBasicTest in 3.159 seconds (JVM running for 4.84)
+2021-12-27 04:24:45.231  INFO 72668 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@66b72664 testClass = JpaDemoBasicTest, testInstance = com.example.jpademo.JpaDemoBasicTest@72851503, testMethod = sqlFunction@JpaDemoBasicTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a34b7b8 testClass = JpaDemoBasicTest, locations = '{}', classes = '{class com.example.jpademo.JpademoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@55b5f5d2, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@242aa8d9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4721d212, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@207ea13, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@a8c1f44, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2ca923bb], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@4718d320]; rollback [true]
+2021-12-27 04:24:45.329 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* insert com.example.jpademo.domain.team.Team
+        */ insert 
+        into
+            Team
+            (id, name) 
+        values
+            (null, ?)
+2021-12-27 04:24:45.334  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685334 | took 0ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* insert com.example.jpademo.domain.team.Team */ insert into Team (id, name) values (null, ?)
+/* insert com.example.jpademo.domain.team.Team */ insert into Team (id, name) values (null, 'teamA');
+2021-12-27 04:24:45.343 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* insert com.example.jpademo.domain.team.Team
+        */ insert 
+        into
+            Team
+            (id, name) 
+        values
+            (null, ?)
+2021-12-27 04:24:45.343  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685343 | took 0ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* insert com.example.jpademo.domain.team.Team */ insert into Team (id, name) values (null, ?)
+/* insert com.example.jpademo.domain.team.Team */ insert into Team (id, name) values (null, 'teamB');
+2021-12-27 04:24:45.344 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* insert com.example.jpademo.domain.member.Member
+        */ insert 
+        into
+            Member
+            (member_id, age, team_id, username) 
+        values
+            (null, ?, ?, ?)
+2021-12-27 04:24:45.345  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685345 | took 0ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, ?, ?, ?)
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, 10, 1, 'member1');
+2021-12-27 04:24:45.346 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* insert com.example.jpademo.domain.member.Member
+        */ insert 
+        into
+            Member
+            (member_id, age, team_id, username) 
+        values
+            (null, ?, ?, ?)
+2021-12-27 04:24:45.346  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685346 | took 0ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, ?, ?, ?)
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, 20, 1, 'member2');
+2021-12-27 04:24:45.347 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* insert com.example.jpademo.domain.member.Member
+        */ insert 
+        into
+            Member
+            (member_id, age, team_id, username) 
+        values
+            (null, ?, ?, ?)
+2021-12-27 04:24:45.348  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685348 | took 0ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, ?, ?, ?)
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, 30, 2, 'member3');
+2021-12-27 04:24:45.348 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* insert com.example.jpademo.domain.member.Member
+        */ insert 
+        into
+            Member
+            (member_id, age, team_id, username) 
+        values
+            (null, ?, ?, ?)
+2021-12-27 04:24:45.348  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685348 | took 0ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, ?, ?, ?)
+/* insert com.example.jpademo.domain.member.Member */ insert into Member (member_id, age, team_id, username) values (null, 40, 2, 'member4');
+2021-12-27 04:24:45.422 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* select
+        m 
+    from
+        Member m */ select
+            member0_.member_id as member_i1_0_,
+            member0_.age as age2_0_,
+            member0_.team_id as team_id4_0_,
+            member0_.username as username3_0_ 
+        from
+            Member member0_
+2021-12-27 04:24:45.425  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685425 | took 1ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* select m from Member m */ select member0_.member_id as member_i1_0_, member0_.age as age2_0_, member0_.team_id as team_id4_0_, member0_.username as username3_0_ from Member member0_
+/* select m from Member m */ select member0_.member_id as member_i1_0_, member0_.age as age2_0_, member0_.team_id as team_id4_0_, member0_.username as username3_0_ from Member member0_;
+2021-12-27 04:24:45.442  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member =&gt;Member(id=1, username=member1, age=10)
+2021-12-27 04:24:45.444  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member.team =&gt;Team(id=1, name=teamA)
+2021-12-27 04:24:45.452  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member =&gt;Member(id=2, username=member2, age=20)
+2021-12-27 04:24:45.452  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member.team =&gt;Team(id=1, name=teamA)
+2021-12-27 04:24:45.452  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member =&gt;Member(id=3, username=member3, age=30)
+2021-12-27 04:24:45.452  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member.team =&gt;Team(id=2, name=teamB)
+2021-12-27 04:24:45.452  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member =&gt;Member(id=4, username=member4, age=40)
+2021-12-27 04:24:45.452  INFO 72668 --- [    Test worker] com.example.jpademo.JpaDemoBasicTest     : member.team =&gt;Team(id=2, name=teamB)
+2021-12-27 04:24:45.506 DEBUG 72668 --- [    Test worker] org.hibernate.SQL                        : 
+    /* select
+        function('replace',
+        member1.username,
+        ?1,
+        ?2) 
+    from
+        Member member1 */ select
+            replace(member0_.username,
+            ?,
+            ?) as col_0_0_ 
+        from
+            Member member0_
+2021-12-27 04:24:45.506  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685506 | took 0ms | statement | connection 3| url jdbc:h2:file:~/desktop/demo
+/* select function('replace', member1.username, ?1, ?2)
+from Member member1 */ select replace(member0_.username, ?, ?) as col_0_0_ from Member member0_
+/* select function('replace', member1.username, 'member'1, 'M'2)
+from Member member1 */ select replace(member0_.username, NULL, ?) as col_0_0_ from Member member0_;
+S = M1
+S = M2
+S = M3
+S = M4
+2021-12-27 04:24:45.510  INFO 72668 --- [    Test worker] p6spy                                    : #1640546685510 | took 0ms | rollback | connection 3| url jdbc:h2:file:~/desktop/demo
+
+;
+2021-12-27 04:24:45.512  INFO 72668 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@66b72664 testClass = JpaDemoBasicTest, testInstance = com.example.jpademo.JpaDemoBasicTest@72851503, testMethod = sqlFunction@JpaDemoBasicTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a34b7b8 testClass = JpaDemoBasicTest, locations = '{}', classes = '{class com.example.jpademo.JpademoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@55b5f5d2, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@242aa8d9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4721d212, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@207ea13, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@a8c1f44, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2ca923bb], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at Dec 27, 2021, 4:24:45 AM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+      enabled: true
+    session:
+      timeout: 60m
+
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:h2:file:~/desktop/demo
+    # url: jdbc:h2:file:C:\kangminkyu\logs\data
+    driver-class-name: org.h2.Driver
+    username: kang
+    password: 1234
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  #  show-sql: true
+    open-in-view: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
+#        type:
+#          descriptor:
+#            sql: trace
