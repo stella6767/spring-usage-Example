@@ -11,6 +11,8 @@
       <list>
         <option value="$PROJECT_DIR$/spring-apply/pom.xml" />
         <option value="$PROJECT_DIR$/simplerest/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaclient1/pom.xml" />
+        <option value="$PROJECT_DIR$/beans/pom.xml" />
       </list>
     </option>
   </component>
