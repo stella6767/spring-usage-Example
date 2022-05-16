@@ -1,9 +1,14 @@
 package com.example.springevent;
 
+import com.example.springevent.handler.EventService;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableAsync;
+
+import java.util.Random;
 
 
 @EnableAsync
@@ -31,6 +36,11 @@ public class SpringEventApplication {
         //SpringApplication.run(SpringEventApplication.class, args);
     }
 
+    @Bean
+    public CommandLineRunner eventTest(EventService eventService){
+
+        return args -> eventService.event발생();
+    }
 
 //    @Bean
 //    public CommandLineRunner dataInit(UserRepository userRepository){
