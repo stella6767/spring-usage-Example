@@ -8,7 +8,7 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
         </processorPath>
-        <module name="spring-replication.main" />
+        <module name="spring-kotiln.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="beans" options="-parameters" />
       <module name="eurekaclient1" options="-parameters" />
+      <module name="security" options="-parameters" />
       <module name="spring-event" options="-parameters" />
       <module name="spring-web-basic" options="-parameters" />
     </option>

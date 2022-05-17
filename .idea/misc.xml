@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/spring-batch" />
     <file type="web" url="file://$PROJECT_DIR$/spring-event" />
     <file type="web" url="file://$PROJECT_DIR$/spring-jacoco" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-kotiln" />
     <file type="web" url="file://$PROJECT_DIR$/spring-replication" />
   </component>
   <component name="MavenProjectsManager">
