@@ -8,10 +8,7 @@ import org.springframework.boot.CommandLineRunner
 import org.springframework.context.annotation.Configuration
 import java.util.*
 
-/**
- * 생소하지만 () 가 constructor
- * getter, setter 생략가능, 코틀린은 모든 맴버변수는 자동 프로퍼티
- */
+
 
 @Configuration
 class InitDummyData (
@@ -45,10 +42,10 @@ class InitDummyData (
     //constructor() : this(bookRepository) //부생성자 보다는 default parameter 나 정적 팩토리 메서드 추천
 
 
-/*    private fun insertDummyItems(): {
+    private fun insertDummyItems():Unit {
 
 
-    }*/
+    }
 
 
 }
