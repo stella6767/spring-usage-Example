@@ -6,6 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/spring-event" />
     <file type="web" url="file://$PROJECT_DIR$/spring-graphql" />
     <file type="web" url="file://$PROJECT_DIR$/spring-jacoco" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-kotiln" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-replication" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,6 +16,7 @@
         <option value="$PROJECT_DIR$/simplerest/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaclient1/pom.xml" />
         <option value="$PROJECT_DIR$/beans/pom.xml" />
+        <option value="$PROJECT_DIR$/security/pom.xml" />
       </list>
     </option>
   </component>
@@ -22,5 +25,8 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="azul-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
