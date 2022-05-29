@@ -10,8 +10,11 @@ server:
       timeout: 60m
 
 spring:
+  profiles:
+    active: local
   datasource:
     url: jdbc:h2:file:~/desktop/demo
+    # url: jdbc:h2:file:C:\kangminkyu\logs\data
     driver-class-name: org.h2.Driver
     username: kang
     password: 1234

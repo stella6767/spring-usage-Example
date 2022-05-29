@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/spring-batch" />
     <file type="web" url="file://$PROJECT_DIR$/spring-event" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-graphql" />
     <file type="web" url="file://$PROJECT_DIR$/spring-jacoco" />
   </component>
   <component name="MavenProjectsManager">

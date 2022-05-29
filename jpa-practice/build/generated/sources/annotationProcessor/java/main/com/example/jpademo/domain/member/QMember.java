@@ -22,13 +22,21 @@ public class QMember extends EntityPathBase<Member> {
 
     public static final QMember member = new QMember("member1");
 
+    public final QAddress address;
+
     public final NumberPath<Integer> age = createNumber("age", Integer.class);
 
     public final NumberPath<Long> id = createNumber("id", Long.class);
 
+    public final com.example.jpademo.domain.locker.QLocker locker;
+
+    public final ListPath<com.example.jpademo.domain.order.Order, com.example.jpademo.domain.order.QOrder> orders = this.<com.example.jpademo.domain.order.Order, com.example.jpademo.domain.order.QOrder>createList("orders", com.example.jpademo.domain.order.Order.class, com.example.jpademo.domain.order.QOrder.class, PathInits.DIRECT2);
+
     public final com.example.jpademo.domain.team.QTeam team;
 
     public final StringPath username = createString("username");
+
+    public final BooleanPath vip = createBoolean("vip");
 
     public QMember(String variable) {
         this(Member.class, forVariable(variable), INITS);
@@ -48,6 +56,8 @@ public class QMember extends EntityPathBase<Member> {
 
     public QMember(Class<? extends Member> type, PathMetadata metadata, PathInits inits) {
         super(type, metadata, inits);
+        this.address = inits.isInitialized("address") ? new QAddress(forProperty("address")) : null;
+        this.locker = inits.isInitialized("locker") ? new com.example.jpademo.domain.locker.QLocker(forProperty("locker"), inits.get("locker")) : null;
         this.team = inits.isInitialized("team") ? new com.example.jpademo.domain.team.QTeam(forProperty("team")) : null;
     }
 
