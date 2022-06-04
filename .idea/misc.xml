@@ -7,7 +7,9 @@
     <file type="web" url="file://$PROJECT_DIR$/spring-graphql" />
     <file type="web" url="file://$PROJECT_DIR$/spring-jacoco" />
     <file type="web" url="file://$PROJECT_DIR$/spring-kotiln" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-router" />
     <file type="web" url="file://$PROJECT_DIR$/spring-replication" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-sse" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
